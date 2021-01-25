@@ -1,5 +1,5 @@
 ![](https://komarev.com/ghpvc/?username=nbtmanager&label=PAGE+VIEWS)
-
+![](https://img.shields.io/badge/build-passing-brightgreen)
 # NBT Manager
 
 NBT Manager is a simple application for nbt commands to use with Horion.
