@@ -78,7 +78,7 @@
                 </TabItem.Header>
                 <Grid
                     x:Name="Tab1Grid"
-                    Background="Black" MouseDown="Drag">
+                    Background="Black">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition
                             Width="*" />
@@ -118,7 +118,7 @@
                 </TabItem.Header>
                 <Grid
                     x:Name="Tab2Grid"
-                    Background="Black" MouseDown="Drag">
+                    Background="Black" Margin="0,0,-14.559,-11">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition
                             Width="*" />
@@ -278,14 +278,14 @@
                     <CheckBox
                         Content="Channeling"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,10,0,0"
+                        Height="22.157"
+                        Margin="10,9.104,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Column="3"
                         Cursor="Hand"
                         Checked="CheckBox_Checked"
@@ -293,14 +293,14 @@
                     <CheckBox
                         Content="Fire Aspect"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,37,0,0"
+                        Height="22.157"
+                        Margin="10,36.296,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Column="3"
                         Cursor="Hand"
                         Checked="CheckBox_Checked"
@@ -308,14 +308,14 @@
                     <CheckBox
                         Content="Frost Walker"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,64,0,0"
+                        Height="22.156"
+                        Margin="10,63.488,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Column="3"
                         Cursor="Hand"
                         Checked="CheckBox_Checked"
@@ -464,14 +464,14 @@
                     <CheckBox
                         Content="Loyalty"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,5,0,0"
+                        Height="22.156"
+                        Margin="10,4.73,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="1"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -480,14 +480,14 @@
                     <CheckBox
                         Content="Mending"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,32,0,0"
+                        Height="22.156"
+                        Margin="10,31.922,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="1"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -496,14 +496,14 @@
                     <CheckBox
                         Content="Projectile Protection"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,59,0,0"
+                        Height="22.156"
+                        Margin="10,59.114,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="1"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -653,14 +653,14 @@
                     <CheckBox
                         Content="Respiration"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,0,0,0"
+                        Height="22.156"
+                        Margin="10,0.356,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="2"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -669,14 +669,14 @@
                     <CheckBox
                         Content="Smite"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,27,0,0"
+                        Height="22.157"
+                        Margin="10,27.547,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="2"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -685,14 +685,14 @@
                     <CheckBox
                         Content="Curse of Binding"
                         HorizontalAlignment="Left"
-                        Height="22"
-                        Margin="10,54,0,0"
+                        Height="22.157"
+                        Margin="10,54.739,0,0"
                         VerticalAlignment="Top"
                         VerticalContentAlignment="Center"
                         FontSize="15"
                         MinWidth="152"
                         MinHeight="22"
-                        Width="152"
+                        Width="164.14"
                         Grid.Row="2"
                         Grid.Column="3"
                         Cursor="Hand"
@@ -822,7 +822,7 @@
                         IsEnabled="False"
                         VerticalAlignment="Top"
                         Text="{Binding Value, ElementName=CustomSlider, UpdateSourceTrigger=PropertyChanged}"
-                        PreviewTextInput="NumberValidationTextBox" />
+                        PreviewTextInput="NumberValidationTextBox" Foreground="White" />
                     <Slider
                         x:Name="CustomSlider"
                         Grid.Column="3"
@@ -856,7 +856,7 @@
                 </TabItem.Header>
                 <Grid
                     x:Name="Tab3Grid"
-                    Background="Black" MouseDown="Drag">
+                    Background="Black">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition
                             Width="*" />
